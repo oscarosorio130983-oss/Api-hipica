@@ -2,7 +2,7 @@ from fastapi import FastAPI, Header, HTTPException, status
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from pathlib import Path
-from urllib.parse import urljoin
+Lofrom urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
 from google.oauth2 import id_token
@@ -46,4 +46,4 @@ class GoogleAuthRequest(BaseModel):
     token_google: str
 
 
-class FuenteHipodromo(BaseModel
+class FuenteHipodromo(BaseModel) 
